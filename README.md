@@ -78,13 +78,12 @@ const marlon = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=marlonpasserii&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_color=00d4ff&title_color=00d4ff&icon_color=00d4ff&bg_color=0d0d0d&text_color=ffffff"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marlonpasserii&layout=compact&langs_count=8&theme=tokyonight&border_color=00d4ff&title_color=00d4ff&bg_color=0d0d0d&text_color=ffffff"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=marlonpasserii&theme=tokyonight&background=0d0d0d&border=00d4ff&ring=00d4ff&fire=ff6b35&currStreakLabel=00d4ff&sideLabels=00d4ff&dates=ffffff&stroke=00d4ff20"/>
 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marlonpasserii&theme=tokyonight&background=0d0d0d&border=00d4ff&ring=00d4ff&fire=ff6b35&currStreakLabel=00d4ff" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=marlonpasserii&bg_color=0d0d0d&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=false&border_color=00d4ff&area_color=00d4ff20"/>
 </div>
 
 ---
@@ -94,39 +93,29 @@ const marlon = {
 
 <div align="center">
 
-<a href="https://github.com/Forlith">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=marlonpasserii&repo=banco-de-dados-geoprojetos&theme=tokyonight&border_color=00d4ff&title_color=00d4ff&bg_color=0d0d0d&text_color=ffffff&icon_color=00d4ff"/>
-</a>
-
-</div>
-
-<br/>
-
 | Projeto | Stack | Descrição |
 |--------|-------|-----------|
-| 🏢 **GeoProjetos DB** | React · Vite · Prisma · PostgreSQL | Sistema de banco de dados para empresa de engenharia |
+| 🏢 **[GeoProjetos DB](https://github.com/MarlonPasseri/banco-de-dados-geoprojetos)** | React · Vite · Prisma · PostgreSQL | Sistema de banco de dados para empresa de engenharia |
 | 🎓 **EduPulse** | Next.js · Node.js · Prisma · pnpm | Plataforma de gestão escolar multi-tenant |
-| ⚡ **ForLith Systems** | Full-Stack · SaaS | Infraestrutura e produtos para clientes enterprise |
+| ⚡ **[ForLith Systems](https://github.com/Forlith)** | Full-Stack · SaaS | Infraestrutura e produtos para clientes enterprise |
+
+</div>
 
 ---
 
-<!-- CONTRIBUTION SNAKE -->
+<!-- SNAKE ANIMATION -->
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake.svg"/>
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake.svg"/>
-  </picture>
+
+> ⚠️ **Setup necessário:** A snake aparece após rodar o GitHub Action abaixo pela primeira vez.
+
 </div>
 
-> **💡 Dica:** Para ativar a snake, crie um GitHub Action no repositório. Veja as instruções abaixo!
-
 <details>
-<summary>🔧 <b>Ativar Snake Animation</b></summary>
+<summary>🔧 <b>Ativar Snake Animation — clique para expandir</b></summary>
 
-Crie o arquivo `.github/workflows/snake.yml`:
+**Passo 1:** Crie o arquivo `.github/workflows/snake.yml` neste repositório:
 
 ```yaml
 name: Generate Snake
@@ -154,20 +143,24 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
+**Passo 2:** Vá em **Actions → Generate Snake → Run workflow** para rodar manualmente.
+
+**Passo 3:** Após rodar, substitua a seção acima por:
+
+```markdown
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake.svg"/>
+  <img alt="snake" src="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake.svg"/>
+</picture>
+```
+
 </details>
 
 ---
 
-<!-- ACTIVITY GRAPH -->
-## 📈 Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=marlonpasserii&bg_color=0d0d0d&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=false&border_color=00d4ff&area_color=00d4ff20"/>
-</div>
-
----
-
-<!-- CONTACT -->
 ## 🌐 Let's Connect
 
 <div align="center">
@@ -179,7 +172,6 @@ jobs:
 
 ---
 
-<!-- FOOTER -->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:00d4ff,100:0d0d0d&height=120&section=footer"/>
