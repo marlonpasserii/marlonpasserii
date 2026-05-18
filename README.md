@@ -107,57 +107,14 @@ const marlon = {
 ## 🐍 Contribution Snake
 
 <div align="center">
-
-> ⚠️ **Setup necessário:** A snake aparece após rodar o GitHub Action abaixo pela primeira vez.
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake.svg"/>
+    <img alt="snake" src="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake.svg"/>
+  </picture>
 </div>
-
-<details>
-<summary>🔧 <b>Ativar Snake Animation — clique para expandir</b></summary>
-
-**Passo 1:** Crie o arquivo `.github/workflows/snake.yml` neste repositório:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-**Passo 2:** Vá em **Actions → Generate Snake → Run workflow** para rodar manualmente.
-
-**Passo 3:** Após rodar, substitua a seção acima por:
-
-```markdown
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake.svg"/>
-  <img alt="snake" src="https://raw.githubusercontent.com/marlonpasserii/marlonpasserii/output/github-contribution-grid-snake.svg"/>
-</picture>
-```
-
-</details>
 
 ---
 
